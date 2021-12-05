@@ -1,2 +1,3 @@
-A program that randomly generates planets in the form of circles and various other space themed structures 
-and allows the player to explore them using unlockable ships of their choice.
+A project for my Non-Examination-Assessment made in windows forms in which planets are randomly generated in a 2d grid, of which their attributes and locations are stored and remembered when revisited.
+The user can move around using a ship to explore the grid and can inspect planets to see their attributes and whether or not they are inhabitable.
+Upon finding a Space Station, Asteroid Field or Inhabitable planet, a new ship is unlocked for the player, from each discovery, to select from the main menu is unlocked which is accessible at any point in the game, meaning 3 ships are unlockable and totalling 4 playable ships.
