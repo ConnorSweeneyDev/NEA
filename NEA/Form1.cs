@@ -35,7 +35,7 @@ namespace NEA
         private Pen pen;
         private SolidBrush brush;
         private Bitmap DrawingArea;
-    
+        
         public NEA_Proj()
         {
             InitializeComponent();
@@ -1392,7 +1392,7 @@ namespace NEA
         public int Y { get; set; }
     }
 
-    public class Position // Used to kkep track of planets after they have been generated
+    public class Position // Used to keep track of planets after they have been generated
     {
         public int X { get; set; }
         public int Y { get; set; }
