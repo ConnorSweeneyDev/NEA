@@ -16,7 +16,7 @@ namespace NEA
     {
         List<Position> positions = new List<Position>();
         int[] CurrentGridPosition = { 0, 0 };
-
+        
         private int CurrentRotation = 0;
         private int CurrentShip = 0;
 
