@@ -23,6 +23,10 @@ namespace NEA
         private int SpaceStationCounter = 0;
         private int InhabitableCounter = 0;
         private int AsteroidCounter = 0;
+        private int Ship1X20 = 0; private int Ship1Y20 = 0;
+        private int Ship2X20 = 0; private int Ship2Y20 = 0;
+        private int Ship3X20 = 0; private int Ship3Y20 = 0;
+        private int Ship4X20 = 0; private int Ship4Y20 = 0;
 
         private bool UsingArrows = false;
         private bool IsDisplayed = false;
@@ -844,22 +848,27 @@ namespace NEA
 
             if (IsDisplayed == false)
             {
+                Ship1X20 = Ship1.Location.X - 20; Ship1Y20 = Ship1.Location.Y - 20;
+                Ship2X20 = Ship2.Location.X - 20; Ship2Y20 = Ship2.Location.Y - 20;
+                Ship3X20 = Ship3.Location.X - 20; Ship3Y20 = Ship3.Location.Y - 20;
+                Ship4X20 = Ship4.Location.X - 20; Ship4Y20 = Ship4.Location.Y - 20;
+
                 pen.Color = Color.Red;
                 if (CurrentShip == 1) // Creates the red circle around the ship when space is pressed
                 {
-                    g.DrawEllipse(pen, Ship1.Location.X - 20, Ship1.Location.Y - 20, 70, 70);
+                    g.DrawEllipse(pen, Ship1X20, Ship1Y20, 70, 70);
                 }
                 else if (CurrentShip == 2)
                 {
-                    g.DrawEllipse(pen, Ship2.Location.X - 20, Ship2.Location.Y - 20, 70, 70);
+                    g.DrawEllipse(pen, Ship2X20, Ship2Y20, 70, 70);
                 }
                 else if (CurrentShip == 3)
                 {
-                    g.DrawEllipse(pen, Ship3.Location.X - 20, Ship3.Location.Y - 20, 70, 70);
+                    g.DrawEllipse(pen, Ship3X20, Ship3Y20, 70, 70);
                 }
                 else
                 {
-                    g.DrawEllipse(pen, Ship4.Location.X - 20, Ship4.Location.Y - 20, 70, 70);
+                    g.DrawEllipse(pen, Ship4X20, Ship4Y20, 70, 70);
                 }
 
                 int temp = rand.Next(-100, 101); // Calculating and displaying all of the attributes of the planet
@@ -933,19 +942,19 @@ namespace NEA
                 pen.Color = Color.Black;
                 if (CurrentShip == 1) // Creates a black circle around the ship to remove the red circle
                 {
-                    g.DrawEllipse(pen, Ship1.Location.X - 20, Ship1.Location.Y - 20, 70, 70);
+                    g.DrawEllipse(pen, Ship1X20, Ship1Y20, 70, 70);
                 }
                 else if (CurrentShip == 2)
                 {
-                    g.DrawEllipse(pen, Ship2.Location.X - 20, Ship2.Location.Y - 20, 70, 70);
+                    g.DrawEllipse(pen, Ship2X20, Ship2Y20, 70, 70);
                 }
                 else if (CurrentShip == 3)
                 {
-                    g.DrawEllipse(pen, Ship3.Location.X - 20, Ship3.Location.Y - 20, 70, 70);
+                    g.DrawEllipse(pen, Ship3X20, Ship3Y20, 70, 70);
                 }
                 else
                 {
-                    g.DrawEllipse(pen, Ship4.Location.X - 20, Ship4.Location.Y - 20, 70, 70);
+                    g.DrawEllipse(pen, Ship4X20, Ship4Y20, 70, 70);
                 }
 
                 TemperatureText.Visible = false;
