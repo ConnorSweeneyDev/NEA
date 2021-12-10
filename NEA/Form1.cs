@@ -940,7 +940,7 @@ namespace NEA
             else
             {
                 pen.Color = Color.Black;
-                if (CurrentShip == 1) // Creates a black circle around the ship to remove the red circle
+                if (CurrentShip == 1) // Creates a black circle at the same location as the red one to "delete" it
                 {
                     g.DrawEllipse(pen, Ship1X20, Ship1Y20, 70, 70);
                 }
