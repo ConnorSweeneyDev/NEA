@@ -991,6 +991,7 @@ namespace NEA
             this.Controls.Add(this.ShipSelectTitle);
             this.DoubleBuffered = true;
             this.Name = "NEA_Proj";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NEA";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CloseProj);
             this.Load += new System.EventHandler(this.LoadProj);

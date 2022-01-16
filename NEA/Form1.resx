@@ -57,8 +57,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
-  <data name="Ship1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Ship1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAABGdBTUEAALGPC/xhBQAABKNJREFUWEfV
         V01PXFUYvgwzZBR2uqAxJrAjhbaRGrtwZeJH2xT3/onGRDEaQyCkCzGB1EIhgQ5UUTeayMK4MU7AAgkB
@@ -83,7 +83,19 @@
         Dg5SIZ2h91to0bofrKys/OM/m76K81p5bqvFczB8JdJJMXqNTsv6C8VwH/RYQ9h5AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="PlanetInfoPanel.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <metadata name="tmrForward.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="tmrBackward.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <metadata name="tmrRight.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>255, 17</value>
+  </metadata>
+  <metadata name="tmrLeft.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>354, 17</value>
+  </metadata>
+  <data name="PlanetInfoPanel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAIAAAAHjs1qAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAAE1FJREFUeF7tne1h27gSRbcg1+JS3MIWkEa2jn1b2APAS2K+AFAURYvCPX9iAIOZ
@@ -171,7 +183,7 @@
         Tt3JDEBx6k5mAIpTdzIDUJy6kxmA4lJ3Qj4e6k4mgrqTafj77/8DQ9VU5KdVN7gAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="SpaceStation.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SpaceStation.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAANYZJREFUeF7t
         fXdwXdd5pxJZbCgs6pasZlFiQSEpqtneFCeOHcdOVAngldvLKwCrmh15ozj2OpudnWR2ZndmJ8lf+9fO
@@ -405,7 +417,7 @@
         gPKJ/0edT7dfy3bVVf8XNnmRWL7nDXEAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Ship1SelectBox.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Ship1SelectBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAYAAACI7Fo9AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAAC79JREFUeF7t2T2uZUcZRuEOyJAckzAPhsIsGEIzAAIE4idA4tciYgpIlhNESMIE
@@ -461,7 +473,7 @@
         utRUtv2t0CX1ZOjSC2DoUnuvv/k/v/w4ln19BFMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Ship2SelectBox.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Ship2SelectBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAIAAAAHjs1qAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAADcxJREFUeF7t2UF2hDgWRNFeSA1rNb2pWlyvp/bQPqWHGwILnL9DJKTinj9CMqTg
@@ -526,7 +538,7 @@
         xzT++uu/iShFOhhNggoAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Ship3SelectBox.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Ship3SelectBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAIAAAAHjs1qAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAADGZJREFUeF7t0lGOrLCSRdGe+Rtcz6JH03ws6dkScgBpuFA+69cukxG1/+c/EctI
@@ -585,7 +597,7 @@
         3GMZ//nP/wOfugPhukLj0gAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="Ship4SelectBox.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Ship4SelectBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAIAAAAHjs1qAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAAEOdJREFUeF7tm8GtJMGtBL8xAv5BBskGWbGWyBSdZJhEoBItbeyw0JwqvpnuzkTc
@@ -663,7 +675,7 @@
         iBT/X90d5/ax7s6DYt2dx+TXr/8AJ2W4T6tnCZoAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Ship2SelectBoxLock.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Ship2SelectBoxLock.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAIAAAAHjs1qAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAACo5JREFUeF7t0lFuY7sVBdE3gky5B5evjCZAJpA43NV49mm3Lcui+oK7Fs4XeUUT
@@ -714,7 +726,7 @@
         SPx17tLxzF1FzF01fvz4HwCP2XS58t1SAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Ship3SelectBoxLock.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Ship3SelectBoxLock.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAIAAAAHjs1qAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAACo5JREFUeF7t0lFuY7sVBdE3gky5B5evjCZAJpA43NV49mm3Lcui+oK7Fs4XeUUT
@@ -765,7 +777,7 @@
         SPx17tLxzF1FzF01fvz4HwCP2XS58t1SAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Ship4SelectBoxLock.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Ship4SelectBoxLock.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAIAAAAHjs1qAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAACo5JREFUeF7t0lFuY7sVBdE3gky5B5evjCZAJpA43NV49mm3Lcui+oK7Fs4XeUUT
@@ -816,7 +828,7 @@
         SPx17tLxzF1FzF01fvz4HwCP2XS58t1SAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Ship2.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Ship2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAABGdBTUEAALGPC/xhBQAABwdJREFUWEfF
         Vt2PVVcV3zxoiC/FVB/qR2OtVStQxuHO3M9zz/feZ5+9z9e9l2EGBgYYaIlCKyhpQewYaKgtQbRYqSUp
@@ -852,7 +864,7 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Ship3.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Ship3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAABGdBTUEAALGPC/xhBQAAA2VJREFUWEfV
         l8lOG0EQQPloxL5v4k/yFznlklMkwICNjbFxNgQhNnGwx56ZvNfpIQ6HSIiZQ0oqUa61q7qqepj7L2Fj
@@ -872,7 +884,7 @@
         Ahn6lep77r9JXVEanhutusDlwtzcL3DPHX+kB65IAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Ship4.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Ship4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAABGdBTUEAALGPC/xhBQAACQxJREFUWEfN
         VmlQ23Uazq7W3tvS02o9SssVwplQCHJLoQIBwtXaGXe0tBACOaCuVQs0QKCVdnb3m67OqJwNRyCBQCBQ
@@ -916,4 +928,7 @@
         PnygUzq7NEnzvRq5q1OXONNSpfjuDeX/FyLRvwD13bAyp0yijQAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="tmrUnlocked.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>445, 17</value>
+  </metadata>
 </root>
