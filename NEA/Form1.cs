@@ -464,7 +464,7 @@ namespace NEA
 
             int[,] PlanetsInfo = new int[10,6];
             
-            int SpaceStationExists = rand.Next(0, 101);                                         
+            int SpaceStationExists = rand.Next(0, 101);
             if (SpaceStationExists == 0 || SpaceStationExists == 1 || SpaceStationExists == 2) // Means a 3% chance because SpaceStationExists is a random integer between 0 and 100
             {
                 SpaceStation.Visible = true;
